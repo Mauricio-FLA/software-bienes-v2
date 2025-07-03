@@ -1,0 +1,31 @@
+# Dependencias
+/node_modules
+
+# Variables de Entorno
+.env
+.env.*.local # Para múltiples entornos (ej. .env.development.local, .env.production.local)
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Build artifacts
+/dist
+/build
+/out
+
+# Archivos de sistema operativo (macOS, Windows, etc.)
+.DS_Store
+Thumbs.db
+
+# IDEs y editores (opcional, pero recomendado)
+.vscode/ # Directorio de configuración de VS Code (a veces es útil compartir settings, pero no siempre)
+.idea/  # Directorio de configuración de JetBrains (WebStorm, IntelliJ)
+
+# Archivos temporales o de caché
+*.tmp
+*.bak
+*.swp
+*.swo
